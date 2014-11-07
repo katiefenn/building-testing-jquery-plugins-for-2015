@@ -1,5 +1,5 @@
 ##  Progressing the Cycle
-### Adding configuration and interraction
+### Adding configuration and interaction
 
 ```
 it('Should display a given start time when supplied as an option', function () {
