@@ -1,6 +1,6 @@
 ##  Jasmine
 ### Behaviour Driven Design / Development
 
-- Develop software by specifying behaviour
-- Design emerges from specification
+- Write specifications to define behaviour
+- Software design emerges from specification
 - Tests and documentation as a side effect

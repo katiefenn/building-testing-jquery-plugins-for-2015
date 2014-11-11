@@ -1,18 +1,20 @@
-##  Progressing the Cycle
-### Refactoring
-
-```
-Plugin.prototype = {
-    init: function () {
-        setDigits(this.element, this.options.minutes);
-    },
-    setMinutes: function (minutes) {
-        this.options.minutes = minutes;
-        setDigits(this.element, minutes);
-    }
-};
-
-function setDigits(element, minutes) {
-    $(element).text(minutes + ":00");
-}
-```
+![Screenshot: Start counting down (image-fragment)](img/start-counting-down.png)
+![Screenshot: Start counting down (image-fragment)](img/start-counting-down-highlight-new-describe-block.png)
+![Screenshot: Start counting down (image-fragment)](img/start-counting-down-highlight-start.png)
+![Screenshot: Start counting down (image-fragment)](img/start-counting-down-highlight-clock-mock.png)
+![Screenshot: Start counting down (image-fragment)](img/start-counting-down-highlight-after-each.png)
+![Screenshot: Start counting down (image-fragment)](img/start-counting-down-highlight-expectations.png)
+![Screenshot: Start counting down (image-fragment)](img/start-counting-down-highlight-clock-mock-tick.png)
+![Screenshot: Start counting down (image-fragment)](img/start-counting-down-highlight-expectation.png)
+![Screenshot: Start counting down (image-fragment)](img/start-counting-down.png)
+![Screenshot: Start counting down (image-fragment)](img/start-counting-down-show-failing-state.png)
+![Screenshot: Start counting down (image-fragment)](img/start-counting-down-show-plugin.png)
+![Screenshot: Start counting down (image-fragment)](img/start-counting-down-show-plugin-highlight-start.png)
+![Screenshot: Start counting down (image-fragment)](img/start-counting-down-show-plugin-highlight-click-handler.png)
+![Screenshot: Start counting down (image-fragment)](img/start-counting-down-show-plugin-highlight-click-data.png)
+![Screenshot: Start counting down (image-fragment)](img/start-counting-down-show-plugin-highlight-click-data-usage.png)
+![Screenshot: Start counting down (image-fragment)](img/start-counting-down-show-plugin-highlight-tick.png)
+![Screenshot: Start counting down (image-fragment)](img/start-counting-down-show-plugin-highlight-format-call.png)
+![Screenshot: Start counting down (image-fragment)](img/start-counting-down-show-plugin-highlight-format-function.png)
+![Screenshot: Start counting down (image-fragment)](img/start-counting-down-show-plugin.png)
+![Screenshot: Start counting down (image-fragment)](img/start-counting-down-show-passing-state.png)
