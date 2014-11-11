@@ -68,6 +68,14 @@
                 
                     
                         
+    <section data-markdown="slides/swiss-army-knife.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
     <section data-html="slides/jquery-features.html"></section>
 
 
@@ -84,63 +92,7 @@
                 
                     
                         
-    <section data-html="slides/jquery-plugin-example.html"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-html="slides/jquery-core-example.html"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-html="slides/javascript-frameworks.html"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-html="slides/javascript-framework-drawbacks.html"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/cross-browser.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/swiss-army-knife.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/jquery-plugin.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-html="slides/jquery-core-example.html"></section>
+    <section data-markdown="slides/benefits-of-writing-plugins.md"></section>
 
 
                     
@@ -149,22 +101,6 @@
                     
                         
     <section data-html="slides/jquery-plugin-example.html"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-html="slides/jquery-plugin-example-2.html"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-html="slides/jquery-plugin-example-3.html"></section>
 
 
                     
@@ -188,23 +124,7 @@
                 
                     
                         
-    <section data-html="slides/not-a-solution.html"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/jquery-boilerplate-installation.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/jquery-boilerplate-installation-2.md"></section>
+    <section data-markdown="slides/not-a-solution.md"></section>
 
 
                     
@@ -213,54 +133,6 @@
                     
                         
     <section data-markdown="slides/jquery-boilerplate-diagram.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/jquery-boilerplate-diagram-2.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/wrapper.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/defaults.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/module.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/adaptor.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/also-supplied.md"></section>
 
 
                     
@@ -300,31 +172,7 @@
                 
                     
                         
-    <section data-markdown="slides/jquery-boilerplate-invokation.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/install-generator-jasmine.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/invoke-generator-jasmine.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/install-extras.md"></section>
+    <section data-markdown="slides/specrunner.md"></section>
 
 
                     
@@ -340,31 +188,7 @@
                 
                     
                         
-    <section data-markdown="slides/failing-state.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/achieving-a-passing-state.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/housekeeping-1.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/housekeeping-2.md"></section>
+    <section data-markdown="slides/display-a-start-time.md"></section>
 
 
                     
@@ -456,6 +280,7 @@
 
         <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
         <script src="bower_components/reveal.js/js/reveal.min.js"></script>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script>
             // Configure Reveal
             // Full list of configuration options available here:
@@ -482,7 +307,8 @@
                     // { src: 'bower_components/reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
                     //{ src: 'bower_components/reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
 
-                    { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
+                    { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } },
+                    { src: 'js/md-image-fragments.js', async: true, condition: function() { return !!document.body.classList; }}
                 ]
             });
         </script>

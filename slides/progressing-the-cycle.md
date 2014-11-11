@@ -1,9 +1,2 @@
 ##  Progressing the Cycle
-### Adding configuration and interraction
-
-```
-it('Should display a given start time when supplied as an option', function () {
-    fixture.timer({minutes: 3});
-    expect(fixture.text()).toEqual('3:00');
-});
-```
+"The timer widget should display a start time of 3:00 when invoked with a time option of 180"

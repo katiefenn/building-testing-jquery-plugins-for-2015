@@ -1,18 +1,10 @@
-##  Progressing the Cycle
-### Adding default minutes option
-
-```
-var pluginName = "timer",
-    defaults = {
-        propertyName: "value",
-        minutes: 2
-    };
-
-...
-
-Plugin.prototype = {
-    init: function () {
-        $(this.element).text(this.options.minutes + ":00");
-    }
-};
-```
+![Screenshot: Display an optional time (image-fragment)](img/display-an-optional-time.png)
+![Screenshot: Display an optional time (image-fragment)](img/display-an-optional-time-show-spec.png)
+![Screenshot: Display an optional time (image-fragment)](img/display-an-optional-time-show-spec-highlight-option.png)
+![Screenshot: Display an optional time (image-fragment)](img/display-an-optional-time-show-spec-highlight-expectation.png)
+![Screenshot: Display an optional time (image-fragment)](img/display-an-optional-time-show-failing-state.png)
+![Screenshot: Display an optional time (image-fragment)](img/display-an-optional-time-show-plugin.png)
+![Screenshot: Display an optional time (image-fragment)](img/display-an-optional-time-show-plugin-highlight-default.png)
+![Screenshot: Display an optional time (image-fragment)](img/display-an-optional-time-show-plugin-highlight-implementation.png)
+![Screenshot: Display an optional time (image-fragment)](img/display-an-optional-time-show-plugin.png)
+![Screenshot: Display an optional time (image-fragment)](img/display-an-optional-time-show-passing-state.png)
