@@ -11,8 +11,6 @@
 ![Screenshot: Start counting down (image-fragment)](img/start-counting-down-show-plugin.png)
 ![Screenshot: Start counting down (image-fragment)](img/start-counting-down-show-plugin-highlight-start.png)
 ![Screenshot: Start counting down (image-fragment)](img/start-counting-down-show-plugin-highlight-click-handler.png)
-![Screenshot: Start counting down (image-fragment)](img/start-counting-down-show-plugin-highlight-click-data.png)
-![Screenshot: Start counting down (image-fragment)](img/start-counting-down-show-plugin-highlight-click-data-usage.png)
 ![Screenshot: Start counting down (image-fragment)](img/start-counting-down-show-plugin-highlight-tick.png)
 ![Screenshot: Start counting down (image-fragment)](img/start-counting-down-show-plugin-highlight-format-call.png)
 ![Screenshot: Start counting down (image-fragment)](img/start-counting-down-show-plugin-highlight-format-function.png)

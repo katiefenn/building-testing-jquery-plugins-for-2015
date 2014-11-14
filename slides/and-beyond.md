@@ -1,7 +1,6 @@
-##  ...And Beyond!
-
+##  Benefits of Both
 - Modular code
 - Unit testing
 - Auto-loading
-- Continuous integration / collaboration
+- Continuous integration
 - Task automation
