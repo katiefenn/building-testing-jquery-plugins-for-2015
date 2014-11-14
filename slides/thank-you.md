@@ -1,4 +1,5 @@
 ##  Thank You
 
-- @katie_fenn
-- katiefenn.github.io/building-testing-jquery-plugins-for-2015
+### @katie_fenn
+### Slides: http://tinyurl.com/btjp2015
+### Source: http://tinyurl.com/btjp2015-source
