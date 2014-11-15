@@ -4,4 +4,4 @@
 - A significant moment
 - Completion of the first step in a cycle
 
-<img src="img/riker.gif" style="width: 500px; height: 500px;" />
+<img src="img/hermione2.gif" style="height: 500px;" />
